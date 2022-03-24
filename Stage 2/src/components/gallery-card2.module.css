@@ -1,0 +1,35 @@
+.GalleryCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.image {
+  width: 100%;
+  height: var(--dl-size-size-xxlarge);
+  object-fit: cover;
+}
+.text {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.text1 {
+  color: #595959;
+  align-self: flex-start;
+}
+@media(max-width: 767px) {
+  .GalleryCard {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .image {
+    height: 10rem;
+  }
+}
