@@ -10,4 +10,4 @@ Instructions for running the project:
   6. Once the file is loaded up in the window, open a new terminal by going into the terminal tab at the top.
   7. In the terminal, type in "npm install react-scripts --save" (without the quotations) and wait for the whole process to finish. Progress can be viewed in the terminal.
   8. Once done, type in "npm run build" in the same terminal to build the project
-  9. Finally, once building is done, type in "npm start", wait for your browser window to open up and if everything was followed correctly,you should be looking at our website
+  9. Finally, once building is done, type in "npm start", wait for your browser window to open up (it does take some time for the content to load up) and if everything was followed correctly, you should be looking at our website
